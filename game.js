@@ -145,7 +145,8 @@ function checkAnswer(){
     if(gamePattern.length===userClickedPattern.length){
       timesClicked = 0;
       setTimeout(function(){
-        nextSequence()},1000);
+        nextSequence();},
+        1000);
       userClickedPattern = [];
     }
   }
@@ -161,7 +162,7 @@ function wrong(){
   playSound("wrong");
 
   setTimeout(function(){
-  $("body").removeClass("game-over")},200);
+  $("body").removeClass("game-over");},200);
 
   gameStart = false;
 

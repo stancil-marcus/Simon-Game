@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-image: linear-gradient(to right, #FC466B , #3F5EFB);;
+  background-image: linear-gradient(to right, #FC466B , #3F5EFB);
 }
 
 #level-title {
@@ -27,7 +27,8 @@ body {
 }
 
 .game-over {
-  background-color: red;
+  background-image: none;
+  background-color: red;  
   opacity: 0.8;
 }
 
